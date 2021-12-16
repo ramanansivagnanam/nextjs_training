@@ -1,0 +1,21 @@
+
+.fooditemCardContainer{
+    display: flex;
+    padding: 8px;
+    border-top: 5px solid rgb(218, 90, 6);
+    border-radius: 5px;
+}
+.fooditemDetails{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@media only screen and (max-width:600px) {
+    .fooditemCardContainer{
+        flex-direction: column;
+    }
+    .fooditemDetails{
+        align-items: flex-start;
+    }
+}

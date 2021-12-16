@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { useRouter } from 'next/router';
+import Layout from '@/components/Layout';
 
 export default function OrderDetailPage() {
+    const router = useRouter();
+    console.log(router)
     return (
-        <div>
-            <h1>Order Details</h1>
-        </div>
+        <Layout>
+            <h1>{router.query.order}</h1>
+        </Layout>
     )
 }
