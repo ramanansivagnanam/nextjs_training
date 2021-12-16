@@ -1,9 +1,10 @@
-import styles from '../styles/Home.module.css'
+import Layout from '@/components/Layout'
+import styles from '@/styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-        <h1>Next JS</h1>
-    </div>
+    <Layout className={styles.container}>
+        <h1>Home page for tenents</h1>
+    </Layout>
   )
 }
