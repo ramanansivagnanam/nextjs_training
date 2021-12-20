@@ -7,7 +7,7 @@ export default function FoodItem({item}) {
     const { name, image, order } = item;
     return (
         <div className={styles.fooditemCardContainer}>
-            <Image src={image} height="200px" width="200px"/>
+            <Image loading="lazy" src={image.url} height="200px" width="200px"  />
             <div className={styles.fooditemDetails}>
                  <p>{name}</p>
                  <div className="btn">

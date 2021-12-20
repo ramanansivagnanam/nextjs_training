@@ -1,0 +1,15 @@
+.imageUploadContainer{
+    padding: 8px;
+    background: rgb(228, 112, 35);
+}
+.uploadButton {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background: #f73504;
+    color: #fff;
+    margin: auto;
+    padding: 8px;
+    cursor: pointer;
+  }

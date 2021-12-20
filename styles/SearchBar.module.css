@@ -1,0 +1,16 @@
+.searchbarContainer{
+    display: flex;
+    width: 240px;
+    height: 40px;
+    border: 2px solid rgb(29, 26, 26);
+}
+
+.searchInput {
+    width:100%;
+    outline: none;
+}
+
+.searchInput:focus {
+    caret-color: blanchedalmond;
+    font-size: 16px;
+}

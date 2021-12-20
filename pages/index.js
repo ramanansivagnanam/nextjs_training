@@ -15,7 +15,7 @@ export default function Home({ items }) {
 }
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${API_URL}/api/`);
+  const res = await fetch(`${API_URL}/orders`);
   const items = await res.json();
   return {
     props: { items, revalidate: 1 },

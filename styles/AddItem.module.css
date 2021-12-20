@@ -1,0 +1,57 @@
+.addItemContainer {
+  display: flex;
+  width: 80vw;
+  margin: 8px auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding-left: 8px;
+  margin: 8px auto;
+  height: 40px;
+  border: 2px solid rgb(29, 26, 26);
+}
+.textAreaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 2px 50px;
+  border: 2px solid rgb(29, 26, 26);
+}
+.inputInline {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 100%;
+}
+
+.buttonStyles {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f73504;
+  color: #fff;
+  margin: auto 50px;
+  padding: 8px;
+  cursor: pointer;
+}
+.imageThumbnail {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .addItemContainer {
+    flex-direction: column;
+  }
+}
