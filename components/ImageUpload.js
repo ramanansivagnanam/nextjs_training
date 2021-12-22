@@ -9,7 +9,7 @@ export default function ImageUpload({id}) {
       const formData = new FormData();
       formData.append('files', image);
       formData.append('ref','orders');
-      formData.append('redId', id);
+      formData.append('refId', id);
       formData.append('field', 'image');
 
       const res = await fetch(`${API_URL}/upload`,{
